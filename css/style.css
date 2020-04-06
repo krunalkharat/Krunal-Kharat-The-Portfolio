@@ -101,43 +101,11 @@ span.m-left {
     font-size: .8rem;
 }
 
-.text a {
-    padding: 12px 25px;
-    background-color: none;
-    border: 3px solid #ED5565;
-    color: #ED5565;
-    font-size: .8rem;
-    letter-spacing: 2px;
-    position: relative;
-    top: 80px;
-    overflow: hidden;
-    transition: .5s;
-    display: inline-block;
-}
-
-.text a:hover {
-    color: #fff;
-}
-
-.text a::before {
-    content: '';
-    background-color: #ED5565;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 0px;
-    z-index: -1;
-    transition: .5s;
-}
-
-.text a:hover::before {
-    height: 100%;
-}
-
 .profile-image {
-    margin-left: 60em;
+    float: right;
+    margin-right: 9em;
     margin-top: -15em;
+    max-width: 600px;
 }
 
 .profile-image img {
@@ -151,6 +119,11 @@ span.m-left {
     font-size: 10rem;
     z-index: 0;
     opacity: .1;
+    padding-top: 1.5em;
+}
+
+.work h1 {
+    margin-top: -2em;
 }
 
 .about-me-info {
@@ -174,15 +147,6 @@ a.about-me-info p {
 a.about-me-info p:nth-child(2),
 a.about-me-info p:last-child {
     margin-top: 30px;
-}
-
-.about img {
-    width: 300px;
-    position: relative;
-    top: -300px;
-    left: calc(100%-100px);
-    right: calc(100%-100px);
-    transform: translateX(calc(-100%+100px));
 }
 
 .skills {
@@ -267,12 +231,6 @@ div[class^='categeory-'] {
     grid-gap: 20px;
 }
 
-.work a {
-    justify-self: center;
-    position: relative;
-    display: inline-block;
-}
-
 .see a {
     padding: 12px 25px;
     background-color: none;
@@ -309,7 +267,8 @@ div[class^='categeory-'] {
 }
 
 .icon {
-    margin-left: 58em;
+    float: right;
+    margin-right: 6em;
 }
 
 .icon i {
@@ -329,7 +288,7 @@ div[class^='categeory-'] {
 
 footer hr {
     border: 2px solid #707070;
-    margin-top: 80px;
+    margin-top: 100px;
 }
 
 footer p {
