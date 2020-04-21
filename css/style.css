@@ -22,7 +22,7 @@ nav ul,
 }
 
 body {
-    background-color: #252627;
+    background-color: #1b1b1b;
 }
 
 header {
@@ -36,6 +36,10 @@ header {
 
 .navbar {
     background-color: #181818;
+}
+
+.logo {
+    margin-left: 48%;
 }
 
 header h1,
@@ -109,9 +113,10 @@ span.m-left {
 }
 
 .profile-image img {
-    width: 350px;
-    height: 350px;
+    width: 300px;
+    height: 300px;
     box-shadow: 0 0 1.2rem rgba(0, 0, 0, .25);
+    border-radius: 40%;
 }
 
 .about h1,
@@ -296,4 +301,17 @@ footer p {
     color: #707070;
     font-size: 1.2rem;
     padding: 30px 0;
+}
+
+
+/* particles-js */
+
+#particle-js {
+    width: auto;
+    height: 500px;
+    align-items: center;
+}
+
+#page1 {
+    margin-top: -30em;
 }
