@@ -10,6 +10,7 @@
     <link rel="stylesheet " href="css/aniamte.css ">
     <link rel="stylesheet " href="css/style.css ">
     <script src="https://kit.fontawesome.com/a8d75d7a40.js" crossorigin="anonymous"></script>
+    
 </head>
 
 <body>
@@ -19,17 +20,11 @@
             <div class="logo ">
                 <h1>Krunal</h1>
             </div>
-            <nav>
-                <ul>
-                    <li><a href="#about ">aboutme</a></li>
-                    <li><a href="#skills ">skills</a></li>
-                    <li><a href="#work ">work</a></li>
-                </ul>
-            </nav>
         </header>
     </div>
 
-    <div class="container.main--secinfotion ">
+    <div id="particle-js"></div>
+    <div class="container.main--secinfotion " id='page1'>
         <div class="text ">
             <h1>
                 <span>H</span>
@@ -61,18 +56,23 @@
             <img src="img/kk2.jpg " alt="kk2.jpg ">
         </div>
     </div>
+    
+    
 
     <div class="container about " id="about ">
         <h1>About</h1>
         <div class="about-me-info ">
-            <p>I am Krunal Kharat studying B.Tech in Computer Science & Engineering at G H Raisoni University.
+            <p>I am a 3rd year undergraduate student pursuing computer science and engineering from G H Raisoni University, Saikheda. I am responsible and carry a get-it-done attitude regarding everything. I have sound programming knowledge and I'm skilled in C, C++, Python, data structures and algorithms. I have worked on many technical platforms and have a keen interest in Artificial Intelligence.
+            <br>
+            <br>
+Being an inquisitive learner, I'm always looking to expand my horizons. I also have considerably good people skills. I believe in the power of team work.✌
             </p>
         </div>
     </div>
 
     <div class="container skills " id="skills ">
         <h1>Skills</h1>
-        <p class="Skills-info "> The skills shows the person have how much of knowledge he or she have about the technology or things. Is he is actually a good person for the organisation. actually these things categaries a person.
+        <p class="Skills-info "> Skills are the expertise or talent needed in order to do a job or task. Job skills allow you to do a particular job and life skills help you through everyday tasks.
         </p>
         <div class="html ">
             <div class="tag-html ">
@@ -132,10 +132,22 @@
         </div>
     </div>
 
+
     <footer>
         <hr>
         <p>2020 copyright. All Rights Researved</p>
+    </footer>    
+    
 
+    <!-- Particle-Js -->
+
+    
+    <script src="particles.min.js"></script>
+    <script>
+        particlesJS.load('particle-js', 'particles.json', function() {
+            console.log("particle.json loaded...");
+        });
+    </script>
 </body>
 
 </html>
