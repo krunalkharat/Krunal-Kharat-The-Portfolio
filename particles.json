@@ -1,32 +1,32 @@
 {
     "particles": {
         "number": {
-            "value": 80,
+            "value": 100,
             "density": {
                 "enable": true,
-                "value_area": 800
+                "value_area": 600
             }
         },
         "color": {
             "value": "#ffffff"
         },
         "shape": {
-            "type": "circle",
+            "type": "hexagon",
             "stroke": {
-                "width": 0,
+                "width": 1,
                 "color": "#000000"
             },
             "polygon": {
                 "nb_sides": 4
             },
             "image": {
-                "src": "img/github.svg",
-                "width": 300,
+                "src": "img/kk1.jpg",
+                "width": 100,
                 "height": 300
             }
         },
         "opacity": {
-            "value": 0.5,
+            "value": 2,
             "random": false,
             "anim": {
                 "enable": false,
@@ -54,7 +54,7 @@
         },
         "move": {
             "enable": true,
-            "speed": 1,
+            "speed": 0.75,
             "direction": "none",
             "random": false,
             "straight": false,
@@ -79,6 +79,7 @@
                 "mode": "push"
             },
             "resize": true
+
         },
         "modes": {
             "grab": {
@@ -92,7 +93,7 @@
                 "size": 80,
                 "duration": 2,
                 "opacity": 0.8,
-                "speed": 3
+                "speed": 2
             },
             "repulse": {
                 "distance": 400,
