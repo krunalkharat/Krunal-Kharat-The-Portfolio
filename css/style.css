@@ -204,20 +204,17 @@ a.about-me-info p:last-child {
     height: 100%;
 }
 
+.icons{
+    margin-left: 28em;
+    margin-top: 5em;
+}
+
 .icon {
-    float: right;
-    margin-right: 6em;
-}
-
-.icon i {
-    margin: 10px;
-    padding: 10px;
-    position: relative;
-}
-
-.icon a {
-    background-color: #252627;
-    color: aliceblue;
+    height: 70px;
+    width: 70px;
+    margin-left: 1em;
+    background-color: #BEBEBE;
+    border-radius: 48%;
 }
 
 #contact {
@@ -232,7 +229,7 @@ footer hr {
 footer p {
     text-align: center;
     color: #707070;
-    font-size: 1.2rem;
+    font-size: 1rem;
     padding: 30px 0;
 }
 
